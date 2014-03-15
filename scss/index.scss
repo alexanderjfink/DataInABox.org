@@ -1,0 +1,86 @@
+@import "sitewide";
+
+body {
+	font-family: $font-stack;
+	color: #000;
+}
+
+.header {
+	height: 425px;
+	color: #FFF;
+	background-color: $fifth-color;
+	margin-bottom: 30px;
+}
+
+.headbox {
+	background-color: #FFF;
+	margin-top: 50px;
+}
+
+.headbox p {
+	font-size: 1.1em;
+}
+
+.tileBox {
+	background-color: #FF7400;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+.tileBox:hover {
+	background-color: #FFF;
+	color: #000;
+}
+
+.tileBox .title {
+	font-size: 3.5em;
+}
+
+.footer {
+	height: 275px;
+	margin-top: 50px;
+	padding-top: 20px;
+	color: #FFF;
+	background-color: $sixth-color;
+	
+}
+
+.footer p {
+	font-size: .9em;
+}
+
+.footer .heading {
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.footer a {
+	color: $third-color;
+}
+
+.footer a:hover {
+	color: $second-color;
+}
+
+.footer-icons a {
+	color: #FFF;
+	font-size: .9em;
+}
+
+.bottom {
+	height: 10px;
+	background-color: $fifth-color;
+}
+
+.orbit-content {
+	background-color: $third-color;
+}
+
+.orbit-content div {
+	padding: 50px;
+}
+
+.orbit-content a {
+	color: $fifth-color;
+}
